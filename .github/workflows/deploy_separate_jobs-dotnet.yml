@@ -19,7 +19,7 @@ jobs:
       - name: Setup .NET 9
         uses: actions/setup-dotnet@v4  # ✅ Installs .NET SDK in the runner
         with:
-          dotnet-version: '9.0.100-preview.3'  # ✅ Your target SDK version
+          dotnet-version: '9.0.203'  # ✅ Your target SDK version
 
       - name: Restore dependencies
         run: dotnet restore  # 📦 Restores NuGet packages
